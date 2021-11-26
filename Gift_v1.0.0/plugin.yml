@@ -1,0 +1,16 @@
+name: Gift
+description: Gift
+api: 3.0.0
+main: Gift\Main
+version: 1.0.0
+author: sdsd16
+
+commands:
+  gift:
+    description: 禮物系統
+    permission: Player.command
+permissions:
+  Player.command:
+    default: true
+  OP.command:
+    default: op  
